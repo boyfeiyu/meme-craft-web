@@ -78,7 +78,7 @@ onMounted(async () => {})
           accept="image/*"
         />
       </div>
-      <div v-for="(text, index) in texts" :key="index">
+      <div v-for="(_text, index) in texts" :key="index">
         <input
           type="text"
           v-model="texts[index]"
